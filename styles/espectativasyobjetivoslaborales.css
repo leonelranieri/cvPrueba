@@ -29,8 +29,9 @@ p{
 }
 
 .lista {
-    margin-bottom: 5px;
-    list-style-type: square; /* Elimina los puntos predeterminados de la lista */
+    margin-bottom: 1px;
+    list-style-type: square; 
+    margin-top: 5px;
 }
 
 .lista li {
@@ -43,37 +44,40 @@ p{
     flex-wrap: wrap;
   }
 
-.div1{
+  .div1{
     background-color: burlywood;
-  } 
-
-  .div2{
-    background-color: wheat;
-  }
-
-  .div3{
-    background-color: darkkhaki;
-  }
-
-  .div1, .div2 {
     width: 25%; /* O el ancho deseado para div1 y div2 */
     box-sizing: border-box;
     border-radius: 5px;
     border: 1px solid #000; /* Borde para visualización */
     position: relative;
-    left: 275px;
+    left: 85px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
+
+  .div2 {
+    background-color: wheat;
+    width: 25%; /* O el ancho deseado para div1 y div2 */
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #000; /* Borde para visualización */
+    position: relative;
+    left: 480px;
     margin-left: 20px;
     margin-bottom: 5px;
   }
 
   .div3 {
+    background-color: darkkhaki;
+    height: 250px;
     width: 25%;
     box-sizing: border-box;
     border-radius: 5px;
     border: 1px solid #000; /* Borde para visualización */
     position: relative;
-    top: 230px;
-    right: 250px;
+    top: 350px;
+    right: 230px;
     margin-bottom: 5px;
   }
 
@@ -88,10 +92,66 @@ p{
     }
   }
 
+
   #icon1{
     position: relative;
-    right: -45%;
-    font-size: 25px;
+    left: 75px;
+    bottom: 45px;
+    
+  }
+
+  #java{
+    position: relative;
+    right: -35px;
+    bottom: 35px;
+  }
+
+  #python{
+    position: relative;
+    right: -60px;
+    bottom: 35px;
+  }
+
+  #sql{
+    position: relative;
+    right: -35px;
+    bottom: 35px;
+  }
+
+  #github{
+    position: relative;
+    right: -55px;
+    bottom: 35px;
+  }
+
+  #bash{
+    position: relative;
+    right: -95px;
+    bottom: 30px;
+  }
+
+  #html{
+    position: relative;
+    right: -55px;
+    bottom: 30px;
+  }
+
+  #css{
+    position: relative;
+    right: -35px;
+    bottom: 30px;
+  }
+
+  #js{
+    position: relative;
+    right: -85px;
+    bottom: 30px;
+  }
+
+  #react{
+    position: relative;
+    right: -45px;
+    bottom: 30px;
   }
 
 
