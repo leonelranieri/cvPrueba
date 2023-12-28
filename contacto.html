@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles/contacto.css">
+    <script src="https://kit.fontawesome.com/7239567936.js" crossorigin="anonymous"></script>
+    <title>Curriculum Vitae de Leonel Alejandro Ranieri</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html"><i class="fa-solid fa-house-user"></i>Home</a>
+        <a href="espectativasyobjetivoslaborales.html"><i class="fa-solid fa-list-check"></i>Espectativas y Objetivos laborales</a>
+        <a href="experiencialaboral.html"><i class="fa-solid fa-wrench"></i>Experiencia laboral</a>
+        <a href="historialacademico.html"><i class="fa-solid fa-user-graduate"></i>Historial Académico</a>
+        <a class="active" href="contacto.html"><i class="fa-solid fa-envelope"></i></i>Contacto</a>
+        <a href="relax.html"><i class="fa-solid fa-couch"></i></i></i>Relax</a>
+        <div class="responsive">
+            <i class="fa fa-bars"></i>
+        </div>
+    </div>
+
+    <h1>Envíame un mensaje</h1>
+    <div class="contenedor">
+        <form action="https://formsubmit.co/leonelranieri0501@hotmail.com" method="POST" onsubmit="return enviar(this);" name="contacto">
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribí aquí tu nombre" required minlength="3">
+            <label for="apellido">Apellido: </label>
+            <input type="text" id="apellido" name="apellido" placeholder="Escribí aquí tu apellido" required
+                minlength="3">
+            <label for="mail">Email: </label>
+            <input type="email" id="mail" name="mail" placeholder="Escribí aquí tu mail" required>
+            <label for="telefono">Teléfono: </label>
+            <input type="text" id="telefono" name="telefono" placeholder="Escribí aquí tu teléfono" required> 
+            <label for="comentario">Comentario: </label>
+            <textarea name="comentario" id="comentario" maxlength="300" placeholder="Escribí aquí tu comentario" oninput="contarCaracteres()" required></textarea>
+            <div id="contador">Caracteres restantes: 300</div>
+    
+            <input type="submit" value="Enviar" class="submit-btn">
+            <button class="submit-btn limpiar-btn" onclick="resetForm()">Limpiar formulario</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+
+</body>
+
+</html>
+
+<script src="/scripts/contacto.js"></script>
