@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+img{
+    border-radius: 10%;
+    width: 250px;
+    height: 250px;
+    float: right;
+    margin-left: 5px;
+    border-width: 2px; /* Establecer el ancho del borde */
+    border-style: solid; /* Establecer el estilo del borde (puedes usar otros valores como dashed, dotted, etc.) */
+    border-color: black; /* Establecer el color del borde */
+    max-width: 100%; /* Hacer la imagen responsive */
+    max-height: 250px; /* Establecer la altura máxima deseada */
+}

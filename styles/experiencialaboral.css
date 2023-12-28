@@ -1,0 +1,65 @@
+.contenedor {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del flex container a columna */
+    align-items: center; /* Centra los elementos a lo largo del eje transversal (verticalmente) */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.resumen{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(12, 12, 12);
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    background-color: rgb(199, 98, 98);
+    margin-top: 20px; /* Añade un margen superior para separar la tabla del título */
+    margin-bottom: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+th{
+    text-align: left;
+    border: 1px solid rgb(8, 8, 8);
+    padding: 10px;
+    background-color: rgb(100, 2, 2);
+    color: whitesmoke;
+}
+
+td{
+    border: 1px solid rgb(12, 12, 12);
+    padding: 10px;
+    font-size: x-large;
+    font-style: italic;
+}
+
+h2{
+    margin: 0;
+    padding: 20px;
+}
+
+tr:nth-child(even){
+    background-color: brown;
+}
+
+tr:hover{
+    background-color: pink;
+    color: darkred
+}
+
+p{
+    font-size: 20px;
+}
+
+td:first-child {
+    font-size: x-large;   
+    font-weight: bold; 
+}
+
+.foot{
+    position: relative;
+    top: 250px;
+}

@@ -1,0 +1,102 @@
+h2{
+    font-size: 25px;
+}
+
+h3, h4{
+    text-align: center;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.ref, i{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+}
+
+/* Color cuando el enlace ha sido visitado */
+.ref:visited {
+    color: #082d7a; /* Puedes cambiar este color según tu preferencia */
+}
+
+/* Color cuando se pasa el ratón por encima del enlace */
+.ref:hover {
+    color: #6e2206; /* Puedes cambiar este color según tu preferencia */
+}
+
+.lista {
+    margin-bottom: 5px;
+    list-style-type: square; /* Elimina los puntos predeterminados de la lista */
+}
+
+.lista li {
+    margin-bottom: 10px; /* Espaciado entre elementos de la lista */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.div1{
+    background-color: burlywood;
+  } 
+
+  .div2{
+    background-color: wheat;
+  }
+
+  .div3{
+    background-color: darkkhaki;
+  }
+
+  .div1, .div2 {
+    width: 25%; /* O el ancho deseado para div1 y div2 */
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #000; /* Borde para visualización */
+    position: relative;
+    left: 275px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
+
+  .div3 {
+    width: 25%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #000; /* Borde para visualización */
+    position: relative;
+    top: 230px;
+    right: 250px;
+    margin-bottom: 5px;
+  }
+
+  .uldiv3, 
+  .uldiv4{
+    list-style-type: none;
+  }
+
+  @media (max-width: 600px) {
+    .div1, .div2, .div3 {
+      width: 100%;
+    }
+  }
+
+  #icon1{
+    position: relative;
+    right: -45%;
+    font-size: 25px;
+  }
+
+
+.foot{
+    margin-top: 15px;
+    position: relative;
+    top: 250px;
+}
