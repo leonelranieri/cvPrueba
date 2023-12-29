@@ -1,0 +1,88 @@
+.musica {
+    text-align: center;
+    width: 900px;
+    height: 1300px;
+    border: 3px solid darkslateblue;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding: 0 65px 55px 0;
+    border-radius: 10%;
+    transition: background-color 0.3s ease, border 0.1s ease;
+  }
+
+  .title{
+    font-size: 60px;
+    position: relative;
+    left: 20px;
+    bottom: 30px;
+    margin-left: 80px;
+  }
+
+  #iconmusic{
+    position: relative;
+    right: 280px;
+    top: 8%;
+    font-size: 50px;
+  }
+
+  .video{
+    width: 250px;
+    height: 250px;
+  }
+
+  #video1{
+    height: 210px;
+  }
+
+  .video-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  .video-number,
+  .video-title {
+    position: relative;
+    top: -220px;
+    left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    margin: 0;
+  }
+
+  #video5,
+  #video6 {
+    position: relative;
+    right: 65px;
+  }
+
+  #video7 {
+    position: relative;
+    right: 45px;
+  }
+
+  .otrosvideos {
+    margin-top: 30px;
+    border-radius: 15%;
+    background-color: rgb(211, 152, 221);
+  }
+
+  .otrosvideos h2 {
+    text-align: center;;
+  }
+
+  .otrosvideos #video2 {
+    width: 250px;
+    height: 220px;
+  }
+
+  .otrosvideos #video3 {
+    width: 250px;
+    height: 240px;
+  }
+
+.footer{
+    position: relative;
+    bottom: -100px;
+}
