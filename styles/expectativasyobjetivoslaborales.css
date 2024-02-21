@@ -44,6 +44,12 @@ i{
   top: 5px;
 }
 
+#iconcalculadora{
+  position: relative;
+  left: -10px;
+  top: 5px;
+}
+
 .ref:visited {
     color: black; 
 }
@@ -94,7 +100,7 @@ i{
 
   .div3 {
     background-color: darkkhaki;
-    height: 250px;
+    height: 300px;
     width: 25%;
     box-sizing: border-box;
     border-radius: 5px;
