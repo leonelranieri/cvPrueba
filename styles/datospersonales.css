@@ -1,0 +1,42 @@
+.navbar {
+    margin-bottom: 35px;
+}
+
+/* Agrega estilos para los elementos dentro de la clase "datos" */
+.datos {
+    border: 2px solid #ccc; /* Agrega un borde alrededor del div */
+    padding: 20px; /* Añade algo de espacio interno para que no esté pegado al borde */
+    width: 300px; /* Ancho fijo para el div */
+    margin: 0 auto; /* Centra el div horizontalmente */
+}
+
+/* Estilos para los labels dentro del div "datos" */
+.datos label {
+    display: block; /* Hace que los labels ocupen todo el ancho del contenedor */
+    margin-bottom: 2px; /* Espacio entre cada par de label y p */
+    color: rgb(7, 1, 56);
+}
+
+/* Estilos para los párrafos dentro del div "datos" */
+.datos p {
+    display: inline-block; /* Hace que los párrafos se muestren en línea */
+    margin: 0; /* Quita el margen para que estén más juntos */
+    margin-left: 10px; /* Espacio entre el label y el párrafo */
+    margin-bottom: 15px;
+    color: #ca0f0f;
+}
+
+div.datos {
+    border-radius: 50px;
+    background-color: silver;
+    padding: 40px;
+    border: solid rgb(7, 1, 56) 2px;
+}
+
+.footer{
+    position: relative;
+    bottom: -100px;
+}
+
+
+
